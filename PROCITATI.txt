@@ -1,0 +1,5 @@
+Kod se nalazi u folderu src, a aplikacuju mozete pokrenuti u folderu dist index.html
+
+ili
+
+Weather app> npm start

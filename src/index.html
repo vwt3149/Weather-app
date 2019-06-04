@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <link rel="icon" href="./img/sun1.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="load">
+        <div class="load_img">
+            <img src="./img/sun1.png" alt="">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row ">
+            <!-- <div id="bgc_header"></div> -->
+            <nav class="nav_weather col-xs-12 col-md-12 col-xs-offset-0 ">
+                <div class="nav_weather_logo ">
+                    <img id="sun_logo" src="./img/sun1.png" alt="" />
+                    <h2>Weather</h2>
+                </div>
+                <div class="nav_weather_search  ">
+                    <div>
+                            <button class="btn_search">Search</button>
+                    </div>
+                    <div>
+                            <input class="search_input" type="text" maxlength="30" placeholder="Novi Sad, RS" />
+                    </div>
+                    
+                    
+                </div>
+                <br /><br />
+            </nav>
+            <div class="weather_main  box">
+                <div class="row mian col-md-12 col-xs-12  col-xs-offset-0">
+                        <!-- <div class="col-lg-9 weather_welcome box_shadow">
+                            <div class="weather_welcome_message"></div>
+                        </div> -->
+                    <div class="col-lg-3 col-md-3   weather_left">
+                            <div class="cont_custom box_shadow">
+                                    <ul>
+                                        <li>
+                                            <img class="cont_img" src="./img/city.png" alt="" srcset="" />
+                                            <div class="cont_value town">Town / <span id="code">Code</span></div>
+                                        </li>
+                                        <li>
+                                            <img class="cont_img" src="./img/celsius.png" alt="" srcset="" />
+                                            <div class="cont_value temp">Temp°</div>
+                                        </li>
+                                        <li>
+                                            <img class="cont_img" src="./img/wind.png" alt="" srcset="" />
+                                            <div class="cont_value speed">Speed km/h</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 weather_middle">
+                        <div class="cont_custom box_shadow">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <h3 class="weather_info">Summary</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <img class="weather_ico" src="./img/weather icons/svg/clearday.svg" alt="" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="weather_temp">Temp°</div>
+                                    <div id="psi"></div>
+                                    <div id="uv"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 weather_right">
+                        <div class="cont_custom box_shadow">
+                            <ul>
+                                <li>
+                                    <div class="cont_value time">
+                                        <span id="hours">00</span>
+                                        <span id="dots">:</span>
+                                        <span id="minutes">00</span>
+                                        <span id="dot">:</span>
+                                        <span id="seconds">00</span>
+                                    </div>
+                                    <!-- <div class="img"> -->
+                                    <!-- <img class="cont_img" src="./img/clock2.png" alt="" srcset=""> -->
+                                    <!-- </div> -->
+                                </li>
+                                <li>
+                                    <div class="cont_value date">
+                                        <span id="day">24</span>
+                                        <span id="month">March</span>
+                                        <span id="year">2019</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid margin daily_hourly">
+        <!-- <div class=" row weather_hourly">
+            <div class="cont_hourly ">
+
+                <ul>
+                    <h2>Daily</h2>
+                    <li>
+                        <div class="hourly_date_temp">
+                            <span class="date">Tuesday</span>
+                        </div>
+                        <div class="hourly_img">
+                            <img src="./img/weather icons/svg/001-sun.svg" alt="" srcset="">
+                        </div>
+                        <div class="hourly_temp">
+                            <span class="min_temp">22°C</span> / <span class="temp">23°C</span>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+            </div>
+        </div> -->
+    </div>
+    <footer>
+        <ul>
+            <li></li>
+            <li>Copyright ©2019&nbsp; All copy right received.</li>
+            <li></li>
+        </ul>
+    </footer>
+</body>
+</html>
